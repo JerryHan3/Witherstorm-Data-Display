@@ -1,0 +1,1 @@
+execute if score 阶段 witherStormData matches 1 unless score phase switches matches 1.. run function witherstormdata:phase_notice/phase_1
