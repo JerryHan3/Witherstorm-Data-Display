@@ -1,6 +1,9 @@
 {
     "values": [
         "witherstormdata:data_track",
-        "witherstormdata:player_setting"
+        "witherstormdata:player_setting",
+        "witherstormdata:key_point_notice/finale_loop",
+        "witherstormdata:key_point_notice/key_point_controller",
+        "witherstormdata:phase_notice/phase_controll"
     ]
 }
