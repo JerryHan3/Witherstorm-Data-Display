@@ -10,3 +10,6 @@ scoreboard objectives add trig_show_bossbar trigger
 scoreboard objectives add seen_settings dummy
 scoreboard objectives add wsdata_setting trigger
 scoreboard players set finale timer -1
+
+# Show Sidebar by Default
+scoreboard objectives setdisplay sidebar witherStormData
