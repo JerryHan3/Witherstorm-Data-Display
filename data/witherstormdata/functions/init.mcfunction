@@ -1,8 +1,8 @@
 # Basic Display
-scoreboard objectives add witherStormData dummy {"text":"凋灵风暴信息","bold": true, "color": "dark_purple"}
+scoreboard objectives add witherStormData dummy {"text":"Wither Storm Info","bold": true, "color": "dark_purple"}
 scoreboard objectives add switches dummy
 scoreboard objectives add timer dummy
-bossbar add consumed_entities "已吞噬实体数"
+bossbar add consumed_entities "Consumed Entities"
 bossbar set consumed_entities color red
 
 # Player Preferences
