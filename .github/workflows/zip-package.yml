@@ -27,7 +27,7 @@ jobs:
       - name: Package and Upload
         uses: actions/upload-artifact@v3
         with: 
-          name: test-build.zip
+          name: test-build
           path: |
             data
             pack.mcmeta
