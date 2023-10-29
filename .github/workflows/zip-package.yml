@@ -30,3 +30,8 @@ jobs:
           zip dv testbuild.zip .gitignore
           zip dv testbuild.zip README.md
           zip dv testbuild.zip README_en.md
+
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with: 
+          path: testbuild.zip
