@@ -24,14 +24,14 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Package datas
+      - name: Clean up files
         run: |
-          zip -q -r testbuild.zip *
-          zip dv testbuild.zip .gitignore
-          zip dv testbuild.zip README.md
-          zip dv testbuild.zip README_en.md
+          rm -f .gitignore
+          rm -f README.md
+          rm -f README_en.md
+          rm -r -f .github
 
-      - name: Upload
+      - name: Package and Upload
         uses: actions/upload-artifact@v3
         with: 
-          path: testbuild.zip
+          name: test-build.zip
