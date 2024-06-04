@@ -25,3 +25,5 @@ A datapack to show the data of witherstorm on time.
 ## To-do List
 - [ ] Multi-lingual Support
 - [ ] Datapack for 1.19.2, 1.18.2, 1.16.5
+- [ ] Countdown for Withered Symbiont Summoning
+- [ ] Dynamic Value according to the server config
