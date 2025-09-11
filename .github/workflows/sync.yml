@@ -15,4 +15,5 @@ jobs:
           REMOTE: 'https://codeberg.org/JerryHan3/Witherstorm-Data-Display.git'
           GIT_USERNAME: JerryHan3
           GIT_PASSWORD: ${{ secrets.CODEBERG_PASSWORD }}
-          DEBUG: "true"
+          DEBUG: true
+          PUSH_ALL_REFS: false
