@@ -1,0 +1,17 @@
+name: Sync to Codeberg
+
+on: 
+  push:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5.0.0
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE_NAME: 'mirror'
+          REMOTE: 'https://codeberg.org/JerryHan3/Witherstorm-Data-Display.git'
+          GIT_USERNAME: JerryHan3
+          GIT_PASSWORD: ${{ secrets.CODEBERG_PASSWORD }}
